@@ -1,0 +1,2 @@
+# GitTraning
+For test git
