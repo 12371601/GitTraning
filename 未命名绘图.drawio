@@ -1,0 +1,478 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="27.1.1">
+  <diagram name="第 1 页" id="ElBxmssyN6b6h9RfYkS5">
+    <mxGraphModel dx="1099" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ixlhB06p6pZsORDdTrg_-13" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;IIS (项目1站点设置）&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1094" y="1740" width="319" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-1" value="开始：系统面临高并发/大流量" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1094" y="20" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-2" value="流量增长是否超出预期?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1115" y="148" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-3" value="常规运维：监控+扩容" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="985" y="523" width="212" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-4" value="问题定位：瓶颈在哪里?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1248" y="440" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-5" value="应用层优化" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="232" y="733" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-6" value="数据库优化" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="944" y="733" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-7" value="网络层优化" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1704" y="733" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-8" value="静态资源优化" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2551" y="733" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-9" value="异步处理" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="20" y="837" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-10" value="限流降级" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="194" y="837" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-11" value="熔断隔离" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="368" y="837" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-12" value="微服务拆分" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="542" y="837" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-13" value="读写分离" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="732" y="837" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-14" value="分库分表" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="906" y="837" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-15" value="缓存优化" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="837" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-16" value="NoSQL替代方案" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1254" y="837" width="169" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-17" value="CDN加速" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1473" y="837" width="122" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-18" value="负载均衡策略调整" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1645" y="837" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-19" value="多机房部署" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1883" y="837" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-20" value="流量调度/智能DNS" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2073" y="837" width="192" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-21" value="静态资源CDN" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2315" y="837" width="154" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-22" value="HTTP缓存策略" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2519" y="837" width="162" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-23" value="资源压缩与合并" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2731" y="837" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-24" value="方案实施" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="941" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-25" value="是否解决问题?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1394" y="1045" width="156" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-26" value="监控运行状态" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1123" y="1503" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-27" value="考虑架构重构" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="1273" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-28" value="引入消息队列" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1236" y="1399" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-29" value="采用事件驱动架构" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1442" y="1399" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-30" value="服务网格" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="1399" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-31" value="重新评估系统" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1458" y="1503" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-32" value="结束：持续优化" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1283" y="1607" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-1" target="Va7l4Xtb9izjd_S9OUho-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-34" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-2" target="Va7l4Xtb9izjd_S9OUho-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1091" y="404" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-35" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.95;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-2" target="Va7l4Xtb9izjd_S9OUho-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1358" y="404" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-36" value="应用层" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.57;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-4" target="Va7l4Xtb9izjd_S9OUho-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="696" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-37" value="数据库" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.71;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-4" target="Va7l4Xtb9izjd_S9OUho-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1014" y="696" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-38" value="网络/负载均衡" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.68;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-4" target="Va7l4Xtb9izjd_S9OUho-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1774" y="696" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-39" value="静态资源" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.56;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-4" target="Va7l4Xtb9izjd_S9OUho-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2629" y="696" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-5" target="Va7l4Xtb9izjd_S9OUho-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="82" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.33;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-5" target="Va7l4Xtb9izjd_S9OUho-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="256" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.97;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-5" target="Va7l4Xtb9izjd_S9OUho-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.71;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-5" target="Va7l4Xtb9izjd_S9OUho-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-6" target="Va7l4Xtb9izjd_S9OUho-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="794" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.33;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-6" target="Va7l4Xtb9izjd_S9OUho-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="968" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.97;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-6" target="Va7l4Xtb9izjd_S9OUho-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1142" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.7;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-6" target="Va7l4Xtb9izjd_S9OUho-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1339" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.77;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-7" target="Va7l4Xtb9izjd_S9OUho-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1534" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.37;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-7" target="Va7l4Xtb9izjd_S9OUho-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1739" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.87;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-7" target="Va7l4Xtb9izjd_S9OUho-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1953" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-51" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.66;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-7" target="Va7l4Xtb9izjd_S9OUho-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2169" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-52" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.81;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-8" target="Va7l4Xtb9izjd_S9OUho-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2392" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-8" target="Va7l4Xtb9izjd_S9OUho-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2600" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-54" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-8" target="Va7l4Xtb9izjd_S9OUho-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2817" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.45;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-9" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="82" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.44;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-10" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="256" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.43;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-11" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-58" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.42;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-12" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-59" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.4;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-13" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="794" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-60" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.37;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-14" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="968" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-61" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.31;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-15" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1142" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.04;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-16" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1339" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-63" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.76;entryY=-0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-17" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1534" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-64" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.27;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-18" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1739" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-65" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.37;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-19" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1953" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-66" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.41;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-20" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2169" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-67" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.43;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-21" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2392" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-68" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.44;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-22" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2600" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-69" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.45;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-23" target="Va7l4Xtb9izjd_S9OUho-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2817" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-70" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-24" target="Va7l4Xtb9izjd_S9OUho-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-71" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.71;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-25" target="Va7l4Xtb9izjd_S9OUho-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1201" y="1237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-72" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-25" target="Va7l4Xtb9izjd_S9OUho-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1528" y="1237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-73" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.92;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-27" target="Va7l4Xtb9izjd_S9OUho-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1314" y="1363" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-74" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.52;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-27" target="Va7l4Xtb9izjd_S9OUho-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1536" y="1363" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-75" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.92;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-27" target="Va7l4Xtb9izjd_S9OUho-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1742" y="1363" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-76" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.17;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-28" target="Va7l4Xtb9izjd_S9OUho-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1314" y="1478" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-77" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-29" target="Va7l4Xtb9izjd_S9OUho-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-78" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.14;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-30" target="Va7l4Xtb9izjd_S9OUho-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1742" y="1478" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-79" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-26" target="Va7l4Xtb9izjd_S9OUho-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1201" y="1582" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Va7l4Xtb9izjd_S9OUho-80" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.01;rounded=0;" parent="1" source="Va7l4Xtb9izjd_S9OUho-31" target="Va7l4Xtb9izjd_S9OUho-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1536" y="1582" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;FHIS&lt;/font&gt;&lt;span style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;项目源码&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1740" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-6" value="&lt;pre style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-size: 1em; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content; text-align: start;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;code style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-size: 13px; font-variation-settings: normal; background: transparent; border-radius: 4px; color: rgba(0, 0, 0, 0.85); word-break: normal; word-spacing: normal; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow-anchor: auto;&quot; class=&quot;language-csharp&quot;&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token interpolation-string&quot;&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;web.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;{&lt;span style=&quot;background: transparent; color: light-dark(rgba(0, 0, 0, 0.85), rgb(237, 237, 237)); font-size: 13px; word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token expression language-csharp&quot;&gt;project&lt;/span&gt;&lt;span style=&quot;background: transparent; color: light-dark(rgba(0, 0, 0, 0.85), rgb(237, 237, 237)); font-size: 13px; word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;}.&lt;/span&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token expression language-csharp&quot;&gt;environment&lt;/span&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;background: transparent; font-size: 13px; word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;.config&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="677" y="1830" width="306" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-7" value="&lt;pre style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content; text-align: start;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;code style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-variation-settings: normal; background: transparent; border-radius: 4px; word-break: normal; word-spacing: normal; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow-anchor: auto;&quot; class=&quot;language-csharp&quot;&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token interpolation-string&quot;&gt;&lt;span style=&quot;color: rgb(77, 166, 33); font-size: 13px; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token string&quot;&gt;web.&lt;/span&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token string&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;prj1&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;font-size: 13px; background: transparent; color: light-dark(rgba(0, 0, 0, 0.85), rgb(237, 237, 237)); word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: transparent; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;production&lt;/span&gt;&lt;span style=&quot;font-size: 13px; background: transparent; word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;.config&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content; text-align: start;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;pre style=&quot;background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;code style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-variation-settings: normal; background: transparent; border-radius: 4px; word-break: normal; word-spacing: normal; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow-anchor: auto;&quot; class=&quot;language-csharp&quot;&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token interpolation-string&quot;&gt;&lt;span style=&quot;color: rgb(77, 166, 33); font-size: 13px; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token string&quot;&gt;web.&lt;/span&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token string&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;prj1&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;font-size: 13px; background: transparent; color: light-dark(rgba(0, 0, 0, 0.85), rgb(237, 237, 237)); word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: transparent; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;development&lt;/span&gt;&lt;span style=&quot;font-size: 13px; background: transparent; word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;.config&lt;/span&gt;&lt;/pre&gt;&lt;div&gt;&lt;pre style=&quot;background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;pre style=&quot;background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;code style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-variation-settings: normal; background: transparent; border-radius: 4px; word-break: normal; word-spacing: normal; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow-anchor: auto;&quot; class=&quot;language-csharp&quot;&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token interpolation-string&quot;&gt;&lt;span style=&quot;color: rgb(77, 166, 33); font-size: 13px; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token string&quot;&gt;web.&lt;/span&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token string&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;prj1&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;font-size: 13px; background: transparent; color: light-dark(rgba(0, 0, 0, 0.85), rgb(237, 237, 237)); word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: transparent; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;test&lt;/span&gt;&lt;span style=&quot;font-size: 13px; background: transparent; word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;.config&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="677" y="1891" width="306" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-8" value="&lt;pre style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content; text-align: start;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;code style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-variation-settings: normal; background: transparent; border-radius: 4px; word-break: normal; word-spacing: normal; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow-anchor: auto;&quot; class=&quot;language-csharp&quot;&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token interpolation-string&quot;&gt;&lt;span style=&quot;color: rgb(77, 166, 33); font-size: 13px; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token string&quot;&gt;web.&lt;/span&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token string&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;prj20&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;font-size: 13px; background: transparent; color: light-dark(rgba(0, 0, 0, 0.85), rgb(237, 237, 237)); word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: transparent; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;production&lt;/span&gt;&lt;span style=&quot;font-size: 13px; background: transparent; word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;.config&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content; text-align: start;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;pre style=&quot;background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;code style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-variation-settings: normal; background: transparent; border-radius: 4px; word-break: normal; word-spacing: normal; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow-anchor: auto;&quot; class=&quot;language-csharp&quot;&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token interpolation-string&quot;&gt;&lt;span style=&quot;color: rgb(77, 166, 33); font-size: 13px; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token string&quot;&gt;web.&lt;/span&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token string&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;prj20&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;font-size: 13px; background: transparent; color: light-dark(rgba(0, 0, 0, 0.85), rgb(237, 237, 237)); word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: transparent; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;development&lt;/span&gt;&lt;span style=&quot;font-size: 13px; background: transparent; word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;.config&lt;/span&gt;&lt;/pre&gt;&lt;div&gt;&lt;pre style=&quot;background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;pre style=&quot;background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;code style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-variation-settings: normal; background: transparent; border-radius: 4px; word-break: normal; word-spacing: normal; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow-anchor: auto;&quot; class=&quot;language-csharp&quot;&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token interpolation-string&quot;&gt;&lt;span style=&quot;color: rgb(77, 166, 33); font-size: 13px; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token string&quot;&gt;web.&lt;/span&gt;&lt;span style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; background: transparent;&quot; class=&quot;token string&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;prj20&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;font-size: 13px; background: transparent; color: light-dark(rgba(0, 0, 0, 0.85), rgb(237, 237, 237)); word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: transparent; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto;&quot; class=&quot;token punctuation&quot;&gt;test&lt;/span&gt;&lt;span style=&quot;font-size: 13px; background: transparent; word-spacing: normal; white-space: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;.config&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="677" y="2000" width="306" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-12" value="&lt;pre style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-size: 1em; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content; text-align: start;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;span style=&quot;background: transparent; font-size: 13px; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;Set Environment = &lt;/span&gt;&lt;span style=&quot;background: transparent; font-size: 13px; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 255), rgb(66, 143, 28));&quot;&gt;prj1&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background: transparent; font-size: 13px; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: transparent; font-size: 13px; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;production&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100.5" y="1811" width="306" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-14" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;IIS (项目20站点设置）&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1097.5" y="1968" width="319" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-15" value="&lt;pre style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-size: 1em; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #ededed); --code-doc_v3: light-dark(#00000073, #ededed); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #ededed); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content; text-align: start;&quot; class=&quot;container-S2LAkl language-csharp&quot;&gt;&lt;span style=&quot;background: transparent; font-size: 13px; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;Set Environment = &lt;/span&gt;&lt;span style=&quot;background: transparent; font-size: 13px; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 255), rgb(66, 143, 28));&quot;&gt;prj20&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background: transparent; font-size: 13px; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background: transparent; font-size: 13px; word-spacing: normal; outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; --desktop-home-page-background-color: light-dark(#f4f4f4, #1b1b1b); --desktop-home-card-background-color: light-dark(#fdfdfd, #141414); --desktop-home-card-background-color-hover: light-dark(#fff, #000000); --desktop-home-popup-background-color: light-dark(#f6f5f5, #1a1a1a); overflow-anchor: auto; color: rgb(77, 166, 33);&quot; class=&quot;token string&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;production&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1106.5" y="2039" width="306" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-16" value="DB1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1473" y="1760" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-17" value="DB20" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1481" y="1988" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ixlhB06p6pZsORDdTrg_-13" target="ixlhB06p6pZsORDdTrg_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ixlhB06p6pZsORDdTrg_-14" target="ixlhB06p6pZsORDdTrg_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ixlhB06p6pZsORDdTrg_-8" target="ixlhB06p6pZsORDdTrg_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixlhB06p6pZsORDdTrg_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.623;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ixlhB06p6pZsORDdTrg_-7" target="ixlhB06p6pZsORDdTrg_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
