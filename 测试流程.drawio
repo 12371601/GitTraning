@@ -1,108 +1,98 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.3.2">
   <diagram id="sdqKedqcLPWhJMU4AAEh" name="Page-1">
-    <mxGraphModel dx="935" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GP7MzNpaycqfskhp5FxG-17" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" value="开发环境" vertex="1">
-          <mxGeometry height="397" width="580" x="60" y="690" as="geometry" />
+        <mxCell id="GP7MzNpaycqfskhp5FxG-17" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="570" width="1410" x="20" y="740" as="geometry" />
         </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-18" parent="GP7MzNpaycqfskhp5FxG-17" style="swimlane;startSize=20;horizontal=0;html=1;" value="FT" vertex="1">
-          <mxGeometry height="170" width="580" y="20" as="geometry" />
+        <mxCell id="GP7MzNpaycqfskhp5FxG-18" parent="GP7MzNpaycqfskhp5FxG-17" style="swimlane;startSize=20;horizontal=0;html=1;fontSize=13;" value="FT" vertex="1">
+          <mxGeometry height="170" width="1410" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-5" parent="GP7MzNpaycqfskhp5FxG-18" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="输出《需求文档》" vertex="1">
-          <mxGeometry height="40" width="130" x="30" y="35" as="geometry" />
+        <mxCell id="GP7MzNpaycqfskhp5FxG-5" parent="GP7MzNpaycqfskhp5FxG-18" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=13;" value="输出《需求文档》" vertex="1">
+          <mxGeometry height="40" width="150" x="30" y="35" as="geometry" />
         </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-6" parent="GP7MzNpaycqfskhp5FxG-18" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" value="输出《UAT测试用例》&lt;div&gt;- 操作步骤&lt;/div&gt;&lt;div&gt;- 输入数据&lt;/div&gt;&lt;div&gt;- 预期输出&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="139" x="220" y="33" as="geometry" />
+        <mxCell id="GP7MzNpaycqfskhp5FxG-6" parent="GP7MzNpaycqfskhp5FxG-18" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;fontSize=13;" value="输出《UAT测试用例》&lt;div&gt;- 操作步骤&lt;/div&gt;&lt;div&gt;- 输入数据&lt;/div&gt;&lt;div&gt;- 预期输出&lt;/div&gt;" vertex="1">
+          <mxGeometry height="97" width="170" x="227" y="33" as="geometry" />
         </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-10" parent="GP7MzNpaycqfskhp5FxG-18" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="（必须在开发前/开发中完成）" vertex="1">
-          <mxGeometry height="20" width="180" x="196" y="10" as="geometry" />
+        <mxCell id="GP7MzNpaycqfskhp5FxG-10" parent="GP7MzNpaycqfskhp5FxG-18" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=13;" value="（必须在开发前/开发中完成）" vertex="1">
+          <mxGeometry height="20" width="180" x="205" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-19" parent="GP7MzNpaycqfskhp5FxG-17" style="swimlane;startSize=20;horizontal=0;html=1;" value="DEV" vertex="1">
-          <mxGeometry height="207" width="580" y="190" as="geometry" />
-        </mxCell>
-        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-8" edge="1" parent="GP7MzNpaycqfskhp5FxG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="108.02857142857147" y="80" as="sourcePoint" />
-            <mxPoint x="109" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-7" parent="GP7MzNpaycqfskhp5FxG-19" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;verticalAlign=middle;" value="根据《需求文档》编码" vertex="1">
-          <mxGeometry height="41" width="160" x="40" y="39" as="geometry" />
-        </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-11" parent="GP7MzNpaycqfskhp5FxG-19" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;&quot;&gt;1、&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;安全测试&amp;nbsp; （&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space-collapse: preserve;&quot;&gt;SonarQube&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="225" x="235" y="110" as="geometry" />
-        </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-12" edge="1" parent="GP7MzNpaycqfskhp5FxG-19" source="GP7MzNpaycqfskhp5FxG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XBkpjEcja0gTOE7Gw_Bd-5" value="">
+        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-12" edge="1" parent="GP7MzNpaycqfskhp5FxG-18" source="GP7MzNpaycqfskhp5FxG-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" target="GP7MzNpaycqfskhp5FxG-42" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-8" edge="1" parent="GP7MzNpaycqfskhp5FxG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;">
+        <mxCell id="GP7MzNpaycqfskhp5FxG-40" parent="GP7MzNpaycqfskhp5FxG-18" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacing=2;spacingBottom=0;spacingTop=0;fontSize=14;" value="1、部署新版本到 UAT 环境&lt;div&gt;2、重置UAT环境数据库(干净)&lt;/div&gt;&lt;div&gt;3、触发 Playwright&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; - 执行&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;《UAT测试用例》&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;      - 生成 《UAT 自动化测试&lt;b&gt;&lt;font style=&quot;color: rgb(234, 107, 102);&quot;&gt;报告&lt;/font&gt;&lt;/b&gt;》&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;      - 报告包含用例与系统数据主键&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;      - 包含&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: preserve;&quot;&gt;每个用例的 Trace录屏文件&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="137" width="240" x="570" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GP7MzNpaycqfskhp5FxG-42" parent="GP7MzNpaycqfskhp5FxG-18" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacing=2;spacingBottom=0;spacingTop=0;fontSize=13;" value="1. 根据报告与系统核数据（必做 100%）&lt;div&gt;&amp;nbsp; &amp;nbsp; -&amp;nbsp;打开业务系统&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; -&amp;nbsp;根据报告中的用例关联的关键字段查询&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - 核对：存在性、金额、状态、库存等&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - 判断是否需要复查Trace录屏执行过程&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="258" x="848" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="GP7MzNpaycqfskhp5FxG-47" parent="GP7MzNpaycqfskhp5FxG-18" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=13;" value="非核心流程 以核查为主&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="250" x="828" y="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="GP7MzNpaycqfskhp5FxG-45" parent="GP7MzNpaycqfskhp5FxG-18" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacing=2;spacingBottom=0;spacingTop=0;fontSize=14;" value="人工探索性测试（必做）&lt;div&gt;&amp;nbsp; &amp;nbsp; - 核心流程手操作复核一遍&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;- 用户体验、易用性检查&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;- 异常场景测试（断网、快速点击等）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="122" width="252" x="1139" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="GP7MzNpaycqfskhp5FxG-46" edge="1" parent="GP7MzNpaycqfskhp5FxG-18" source="GP7MzNpaycqfskhp5FxG-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" target="GP7MzNpaycqfskhp5FxG-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GP7MzNpaycqfskhp5FxG-48" parent="GP7MzNpaycqfskhp5FxG-18" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=13;" value="核心流程 需要人工操作复核&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="270" x="1116" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="GP7MzNpaycqfskhp5FxG-19" parent="GP7MzNpaycqfskhp5FxG-17" style="swimlane;startSize=20;horizontal=0;html=1;fontSize=13;" value="DEV" vertex="1">
+          <mxGeometry height="380" width="1410" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-18" edge="1" parent="GP7MzNpaycqfskhp5FxG-19" source="GP7MzNpaycqfskhp5FxG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XBkpjEcja0gTOE7Gw_Bd-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GP7MzNpaycqfskhp5FxG-7" parent="GP7MzNpaycqfskhp5FxG-19" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;verticalAlign=middle;fontSize=13;" value="根据《需求文档》编码" vertex="1">
+          <mxGeometry height="41" width="180" x="40" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="GP7MzNpaycqfskhp5FxG-11" parent="GP7MzNpaycqfskhp5FxG-19" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=13;" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;1、&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;安全测试&amp;nbsp; （&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space-collapse: preserve;&quot;&gt;SonarQube&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="245" x="260" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="GP7MzNpaycqfskhp5FxG-8" edge="1" parent="GP7MzNpaycqfskhp5FxG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=13;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="-94" as="sourcePoint" />
             <mxPoint x="106.5" y="39" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-9" edge="1" parent="GP7MzNpaycqfskhp5FxG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="294" y="83" as="sourcePoint" />
-            <mxPoint x="294.51428571428573" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-5" parent="GP7MzNpaycqfskhp5FxG-19" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;verticalAlign=top;" value="&lt;div&gt;&lt;div&gt;基于用例编写 Playwright (C#) 脚本&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; - 开启 Trace 录屏（截图 + 操作记录）&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="47" width="232" x="228" y="36" as="geometry" />
-        </mxCell>
-        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-10" edge="1" parent="GP7MzNpaycqfskhp5FxG-19" source="XBkpjEcja0gTOE7Gw_Bd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GP7MzNpaycqfskhp5FxG-11" value="">
+        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-14" edge="1" parent="GP7MzNpaycqfskhp5FxG-19" source="XBkpjEcja0gTOE7Gw_Bd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GP7MzNpaycqfskhp5FxG-11" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-7" parent="GP7MzNpaycqfskhp5FxG-19" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;&quot;&gt;1、单元&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;（&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xUnit/NUnit&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;font&gt;2、接口测试（&lt;/font&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Postman&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;3、&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;集成测试&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space-collapse: preserve;&quot;&gt;xUnit/NUnit&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="41" y="110" as="geometry" />
+        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-5" parent="GP7MzNpaycqfskhp5FxG-19" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;verticalAlign=top;fontSize=13;" value="&lt;div&gt;&lt;div&gt;基于用例编写 Playwright (C#) 脚本&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; - 开启 Trace 录屏（截图 + 操作记录）&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; - 在开发环境执行，并通过所有用例&lt;/div&gt;" vertex="1">
+          <mxGeometry height="73" width="252" x="256.5" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-6" edge="1" parent="GP7MzNpaycqfskhp5FxG-17" source="GP7MzNpaycqfskhp5FxG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XBkpjEcja0gTOE7Gw_Bd-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="250" y="230" />
-              <mxPoint x="250" y="230" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-39" parent="1" style="swimlane;" value="UAT环境" vertex="1">
-          <mxGeometry height="332" width="870" x="640" y="688" as="geometry" />
-        </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-44" edge="1" parent="GP7MzNpaycqfskhp5FxG-39" source="GP7MzNpaycqfskhp5FxG-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="GP7MzNpaycqfskhp5FxG-42">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="72" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-40" parent="GP7MzNpaycqfskhp5FxG-39" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacing=2;spacingBottom=0;spacingTop=0;" value="1、部署新版本到 UAT 环境&lt;div&gt;2、重置UAT环境数据库(干净)&lt;/div&gt;&lt;div&gt;3、触发 Playwright&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; - 执行&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;《UAT测试用例》&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;      - 生成 《UAT 自动化测试&lt;b&gt;&lt;font style=&quot;color: rgb(234, 107, 102);&quot;&gt;报告&lt;/font&gt;&lt;/b&gt;》&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;      - 报告包含用例与系统数据主键&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;      - 包含&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space-collapse: preserve;&quot;&gt;每个用例的 Trace录屏文件&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="137" width="208" x="40" y="26.5" as="geometry" />
-        </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-46" edge="1" parent="GP7MzNpaycqfskhp5FxG-39" source="GP7MzNpaycqfskhp5FxG-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GP7MzNpaycqfskhp5FxG-45">
+        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-10" edge="1" parent="GP7MzNpaycqfskhp5FxG-19" source="XBkpjEcja0gTOE7Gw_Bd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XBkpjEcja0gTOE7Gw_Bd-5" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-42" parent="GP7MzNpaycqfskhp5FxG-39" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacing=2;spacingBottom=0;spacingTop=0;" value="1. 根据报告与系统核数据（必做 100%）&lt;div&gt;&amp;nbsp; &amp;nbsp; -&amp;nbsp;打开业务系统&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; -&amp;nbsp;根据报告中的用例关联的关键字段查询&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - 核对：存在性、金额、状态、库存等&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - 判断是否需要复查Trace录屏执行过程&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="240" x="240" y="50" as="geometry" />
+        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-7" parent="GP7MzNpaycqfskhp5FxG-19" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=13;" value="&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;1、单元&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;（&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xUnit/NUnit&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;font&gt;2、接口测试（&lt;/font&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Postman&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;3、&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;集成测试&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space-collapse: preserve;&quot;&gt;xUnit/NUnit&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="169" x="46" y="151.5" as="geometry" />
         </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-43" edge="1" parent="GP7MzNpaycqfskhp5FxG-39" style="endArrow=none;html=1;rounded=0;" value="">
+        <mxCell id="GP7MzNpaycqfskhp5FxG-41" edge="1" parent="GP7MzNpaycqfskhp5FxG-17" source="GP7MzNpaycqfskhp5FxG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" target="GP7MzNpaycqfskhp5FxG-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-19" edge="1" parent="GP7MzNpaycqfskhp5FxG-17" source="GP7MzNpaycqfskhp5FxG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.828;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" target="GP7MzNpaycqfskhp5FxG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=13;" value="&lt;span style=&quot;font-weight: 700; text-wrap-mode: nowrap;&quot;&gt;UAT环境&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="952" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=13;" value="&lt;span style=&quot;font-weight: 700; text-wrap-mode: nowrap;&quot;&gt;开发环境&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="268" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=13;" value="&lt;span style=&quot;font-weight: 700; text-wrap-mode: nowrap;&quot;&gt;UAT环境&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="648" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=13;" value="&lt;span style=&quot;font-weight: 700; text-wrap-mode: nowrap;&quot;&gt;UAT环境&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1218" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="XBkpjEcja0gTOE7Gw_Bd-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;labelBorderColor=none;textShadow=1;convertToSvg=1;flowAnimation=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint y="152" as="sourcePoint" />
-            <mxPoint x="870" y="152" as="targetPoint" />
+            <mxPoint x="557" y="1317" as="sourcePoint" />
+            <mxPoint x="559" y="737" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-45" parent="GP7MzNpaycqfskhp5FxG-39" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;spacing=2;spacingBottom=0;spacingTop=0;" value="人工探索性测试（必做）&lt;div&gt;&amp;nbsp; &amp;nbsp; - 核心流程手操作复核一遍&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;- 用户体验、易用性检查&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;- 异常场景测试（断网、快速点击等）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="78" width="240" x="540" y="56" as="geometry" />
-        </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-47" parent="GP7MzNpaycqfskhp5FxG-39" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="非核心流程 以核查为主（复盖90% 用例）&amp;nbsp;&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="250" x="240" y="23" as="geometry" />
-        </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-48" parent="GP7MzNpaycqfskhp5FxG-39" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="核心流程 需要人工操作复核（复盖10% 用例）&amp;nbsp;&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="270" x="531" y="27" as="geometry" />
-        </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-50" parent="GP7MzNpaycqfskhp5FxG-39" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAB8AAAF1CAIAAACf1KbmAAAE7ElEQVR4AeycvU7rMBTHkwiEkJC4S6WKpWWAdixbNzqWhRVGHqFsd7t3RCzwCB3hCaiYGC9vABOMSF0YmADR66Sxk5b+bTcfN03vPwrY8cfx8c/Hp8Y49d7f37e2tvb393+lvnZ2dmq1mhA1kpfnOI7rup1O53fqq9FonJyc3N3dOfLypct49iGlI6Yks5RkhsPh19cX6tpc6WL+v729vby8qFpepVLxvGwsR3iUjY2NarUaSVexPCLZaI00o3SSQQRQes428/n5iVpOkC6cysfHh6qYs+4rKyuqqfQR4bJWV1eVnJx1V+3kEaHuiCrJFESGfkaCp5+RJAwh5yoClIwMkjadXmrp9DNyOOlnJAlDWGp7N/QtXTbJIH45k+H+DACfM3fQajbJ1B1xXEYyg2Oxd3k8QF22TPeWdT1zfSDwzLohssVZzxzdiE3vWfdV125Yl9Heu1eCiC0AiAmRyWg2wXajjKCl5uVzlGIbQ7rb1teXy1l6cX4m9AQH16L/j6fbkU+AnkAUjN9eIfvAgb0Lk599206EnEc1jsnJ+oG6I6IkA8kU52eQStbpxfgZa/W0BWmRCA/JkAwigNI97s8ANJxNAIxDMktJhusZOayLsz8jNUoccq4idCRTEJkM/ExMc57Ti8HQRWnviA7JLCUZ+hk5rFzPSBKGkJ4AASKZgsiI/ZnX19ezs7Mfqa/b21shZ3NzU3XFf79pfX293W73Ul+1Wq1are7t7Tny8m1mbW2N71FKICr0yaiHzCOUjpCWmgzXM3JYuZ6RJAxhqe1d07f0WSSDGC7tOT3UYZxOP4PZTORwNk3giD2QTAzGRJR+RuH4D/yMfxY10VFUBcmP6GaTOnBpe9jSFzjxg6R3r0ZPF42waHjG0527M0i6kFvvPYRnL2+OxKO45+6MRroQF96iI+N2ZDNhujGwkf582QwPvAbnX40yowIa6b7ZBFK3Tx9lhfDMetpzqUJ0TNFQ6GhkKzbURnd+pnHxNMZtKVQUtvz+GX8gH3r1UAe7QGC0/P4ZQcZ1x7MoGFRl6rEMc5uaUTVXNpagdIRIS2bsvYLJpFxMbBYgmVG6VnpULGEMSfftXcwOcNtOWSQ9obJT1YpczwTTVExwdaspO6UkeMTngX3JgbnEa/qmo2vBcj3zfNn1vXrkJoPxDT5qH09/6t43iyuDRvXhj/jEaFwMJt1kvTfwP8qv+5bikfRAg1bzmwuuN1tBlt0vrXQ7EZpSWuljT6AMJojQE2ho2mdpuduLASWL9DNAJetk7GesRcQLWvqZeJXk8ZxHNbliFjWpO4JEMpAM/98k0dDPSBKGkLMJASKZgsgM+f3As8nTImdzcfh+EwKzMGSggpoM/t2k4HA9o1DoI/SRiA/JQDL8u0mioZ+RJAwhZxMCRDKQDP2MREM/I0kYQs4mBIhkCiLD/RkAnhYJwDieg3KySCd3RDFnMlzPSPBcz0gShjBnizS0ni6buiN+OZOhn5Hg6WckCUOYs0UaWk+XTd0Rv5zJ0M9I8PQzkoQhzNkiDa2ny6buiF+pySzk/sws0q7rWr7fNKv2/GmlHtX5uztHDZJBsEpNhusZOaxcz0gShrDU9m7oW7pskkH8/sk5vX6/30l93d/fn5+fVyoV1RX//abDw8N6va6SvkeCtxxH39OnUnZ3d9vtdqvVUul/AQAA//9NUaNjAAAABklEQVQDACD0AljzG6QYAAAAAElFTkSuQmCC;" value="" vertex="1">
-          <mxGeometry height="308" width="25.6" y="23" as="geometry" />
-        </mxCell>
-        <mxCell id="GP7MzNpaycqfskhp5FxG-41" edge="1" parent="1" source="GP7MzNpaycqfskhp5FxG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GP7MzNpaycqfskhp5FxG-40">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
